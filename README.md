@@ -1,3 +1,4 @@
+# Database flows
 ```mermaid
 erDiagram
     USER ||--o| COINS : "has one"
