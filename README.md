@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
     USER ||--o| COINS : "has one (nullable)"
     
@@ -20,3 +21,4 @@ erDiagram
     }
 
     %% Logic Note: give_coin() checks USER then updates/creates COINS
+    ```
